@@ -10,7 +10,7 @@ class ContactProfile : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityContactProfileBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.textView.text = intent.getStringExtra("contacName")
+        binding.textView.text = intent.getStringExtra("contactName")
         binding.textView1.text = intent.getStringExtra("phoneNumber")
 
     }
